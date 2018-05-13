@@ -1,12 +1,92 @@
+.resume {
+  background-color: #3d91cd;
+  float: left;
+  width: 65px;
+  height: 55px;
+  margin-left: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.resume p {
+font-size: 16px;
+  margin-top: 35px;
+}
+
 table, th, td {
-    border: 1px solid black;
     border-collapse: collapse;
+    clear: both;
+}
+
+table {
+  width: 100%;
 }
 
 body {
   background-color: #b7b7b7;
+  margin: 40px;
 }
 
 .wrapper {
   background-color: #f1f1f1;
+}
+
+th h1{
+  margin-left: 30px;
+  font-size: 40px;
+}
+
+th h1 small {
+  font-size: 16px;
+}
+
+h1 ,h2 {
+  text-transform: uppercase;
+}
+
+small {
+  text-transform: none;
+}
+
+th, h2 {
+  color: #3d91cd;
+  text-align: left;
+}
+
+th small, h2 small {
+  color: #000;
+  display: block;
+}
+
+.blackth th {
+  color: #000;
+  text-align: right;
+  vertical-align: top;
+  width: 20%;
+  padding: 4px 10px 0 0;
+}
+
+h1 {
+
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+i {
+  color: #3d91cd;
+}
+
+hr {
+  background-color: #3d91cd;
+  color: #3d91cd;
+  border-width: 1px;
+  border-style: solid;
+  margin: 20px 0;
 }
