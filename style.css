@@ -1,21 +1,21 @@
 .resume {
   background-color: #3d91cd;
   float: left;
-  width: 65px;
-  height: 55px;
+  width: 150px;
+  height: 140px;
   margin-left: 30px;
   color: #fff;
   text-align: center;
 }
 
 .resume p {
-font-size: 16px;
-  margin-top: 35px;
+  font-size: 30px;
+  margin-top: 100px;
 }
 
 table, th, td {
-    border-collapse: collapse;
-    clear: both;
+  clear: both;
+  padding: 3px 0;
 }
 
 table {
@@ -25,19 +25,21 @@ table {
 body {
   background-color: #b7b7b7;
   margin: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 .wrapper {
   background-color: #f1f1f1;
 }
 
-th h1{
+h1{
   margin-left: 30px;
-  font-size: 40px;
+  font-size: 80px;
 }
 
-th h1 small {
-  font-size: 16px;
+h1 small {
+  font-size: 30px;
 }
 
 h1 ,h2 {
@@ -46,6 +48,15 @@ h1 ,h2 {
 
 small {
   text-transform: none;
+}
+
+.spetitle {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.valuespe {
+  font-size: 14px;
 }
 
 th, h2 {
@@ -62,7 +73,7 @@ th small, h2 small {
   color: #000;
   text-align: right;
   vertical-align: top;
-  width: 20%;
+  width: 30%;
   padding: 4px 10px 0 0;
 }
 
@@ -75,7 +86,7 @@ h2 {
 }
 
 p {
-  font-size: 12px;
+  font-size: 20px;
   margin-top: 1px;
 }
 
@@ -89,4 +100,16 @@ hr {
   border-width: 1px;
   border-style: solid;
   margin: 20px 0;
+}
+
+.test {
+  padding-top: 90px;
+}
+
+.test2 {
+  padding-top: 60px;
+}
+
+footer {
+  background-color: #3d91cd;
 }
