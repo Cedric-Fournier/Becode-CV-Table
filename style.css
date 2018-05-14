@@ -14,23 +14,20 @@
   margin-left: 25px;
 }
 
-.workplay {
-  padding-top: 20px;
-  padding-right: 30px;
-}
-
 .work {
   background-color: #3d91cd9f;
   width: 120px;
   height: 120px;
   color: #fff;
-  transform: rotate(-70deg);
-  float: left;
-}
-
-.work p {
+  float: right;
   font-size: 30px;
   margin-left: 18px;
+  transform: rotate(-70deg);
+  position: relative;
+  left: -90px;
+  top: -75px;
+  line-height: 2;
+  text-align: center;
 }
 
 .play {
@@ -41,12 +38,16 @@
   color: #fff;
   transform: rotate(-70deg);
   float: right;
+  font-size: 30px;
+  position: relative;
+  top: 50px;
+  right: 20px;
+  line-height: 6;
+  text-align: center;
 }
 
 .play p {
-  font-size: 30px;
-  margin-top: 80px;
-  margin-left: 25px;
+
 }
 
 table, th, td {
