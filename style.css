@@ -11,6 +11,42 @@
 .resume p {
   font-size: 30px;
   margin-top: 100px;
+  margin-left: 25px;
+}
+
+.workplay {
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+.work {
+  background-color: #3d91cd9f;
+  width: 120px;
+  height: 120px;
+  color: #fff;
+  transform: rotate(-70deg);
+  float: left;
+}
+
+.work p {
+  font-size: 30px;
+  margin-left: 18px;
+}
+
+.play {
+  background-color: #3d91cd9f;
+  width: 120px;
+  height: 120px;
+  margin-left: 30px;
+  color: #fff;
+  transform: rotate(-70deg);
+  float: right;
+}
+
+.play p {
+  font-size: 30px;
+  margin-top: 80px;
+  margin-left: 25px;
 }
 
 table, th, td {
@@ -86,8 +122,7 @@ h2 {
 }
 
 p {
-  font-size: 20px;
-  margin-top: 1px;
+  margin-right: 50px;
 }
 
 i {
@@ -102,14 +137,36 @@ hr {
   margin: 20px 0;
 }
 
-.test {
-  padding-top: 90px;
+.littletable h3, .littletable p{
+  margin: 5px;
 }
 
-.test2 {
-  padding-top: 60px;
+.littletable h3 {
+  font-size: 14px;
+  color: #3d91cd;
+}
+
+.littletable p {
+  font-size: 12px;
+}
+
+.littletableleft h3{
+  margin-top: 12px;
+}
+
+.littletableright {
+  text-align: right;
+  padding-right: 40px;
 }
 
 footer {
   background-color: #3d91cd;
+}
+
+.tralala {
+  border: 1px solid black;
+}
+
+.trululu {
+  text-align: right;
 }
