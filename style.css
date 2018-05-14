@@ -160,6 +160,11 @@ hr {
   padding-right: 40px;
 }
 
+.statspetitle {
+  font-size: 12px;
+  padding-left: 20px;
+}
+
 footer {
   background-color: #3d91cd;
 }
